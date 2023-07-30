@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
 }
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 :root {
   --color-iris: #4d5ae5;
   --color-ocean: #404bbf;
@@ -27,6 +32,7 @@ body {
   padding: 12px 24px;
   justify-content: center;
   align-items: center;
+  padding-top: 96px;
 }
 .flex-btn-menu {
   display: inline-flex;
@@ -35,18 +41,14 @@ body {
 }
 
 .flex-photo-list {
-  display: flex;
-  flex-wrap: wrap;
-  width: 360px;
-  height: 420px;
-  padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
+  gap: 24px;
   flex-shrink: 0;
+  padding-top: 72px;
 }
+
 ul {
   display: flex;
+  flex-wrap: wrap;
 }
 .flex-logo {
   justify-content: flex-start;
@@ -321,6 +323,14 @@ ul {
 
 .background-team {
   background: var(--cloud, #f4f4fd);
+}
+
+.work-it {
+  padding-bottom: 120px;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  justify-content: space-between;
 }
 
 .footer-text {
