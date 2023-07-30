@@ -22,7 +22,29 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--color-hero-background);
 }
+.flex-menu-buttons {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+}
+.flex-btn-menu {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+}
 
+.flex-photo-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 360px;
+  height: 420px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+}
 ul {
   display: flex;
 }
@@ -309,4 +331,14 @@ ul {
   padding-left: 156px;
   padding-top: 17.5px;
   width: 450px;
+}
+
+.virtual-hidden:not(:focus):not(:active) {
+  clip: rect(0000);
+  clip-path: inset(100%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
