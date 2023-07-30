@@ -48,6 +48,7 @@ body {
 
 ul {
   display: flex;
+  flex-wrap: wrap;
 }
 .flex-logo {
   justify-content: flex-start;
@@ -58,6 +59,8 @@ ul {
   gap: 40px;
   padding-right: 230px;
   padding-left: 50px;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 .flex-address {
   gap: 40px;
@@ -68,6 +71,9 @@ ul {
   align-items: center;
   margin-bottom: 25.5px;
   margin-top: 25.5px;
+}
+.padding {
+  padding-top: 120px;
 }
 .container {
   max-width: 1158px;
@@ -259,6 +265,8 @@ ul {
   margin-top: 100px;
   margin-bottom: 100px;
   padding-left: 24px;
+  align-items: stretch;
+  box-sizing: border-box;
 }
 .flex-box {
   align-items: stretch;
@@ -326,9 +334,6 @@ ul {
 
 .work-it {
   padding-bottom: 120px;
-  flex-wrap: wrap;
-  row-gap: 48px;
-  column-gap: 24px;
   justify-content: space-between;
 }
 
