@@ -21,27 +21,36 @@ body {
 
 ul {
   display: flex;
+  align-items: center;
 }
 .flex-logo {
   justify-content: flex-start;
-  margin-right: 156px;
+  padding-left: 80px;
 }
 .flex-menu {
-  justify-content: space-around;
-  margin-top: auto;
+  justify-content: space-between;
+  gap: 40px;
+  padding-right: 160px;
 }
 .flex-address {
-  justify-content: flex-end;
-  margin-left: auto;
+  gap: 40px;
 }
-
 .floor {
   display: flex;
+  align-items: center;
 }
 .container {
   max-width: 1158px;
   margin: auto;
   padding-inline: 15px;
+}
+
+.button-flex {
+  margin: auto;
+}
+.title-flex {
+  padding-left: 300px;
+  padding-right: 300px;
 }
 .logo-link {
   color: var(--navyblue, #2e2f42);
