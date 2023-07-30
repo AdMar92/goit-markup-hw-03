@@ -134,6 +134,7 @@ ul {
   border: 1px solid var(--color-cornflower);
   background: var(--color-cloud);
 }
+
 .button-item:hover,
 .button-item:focus {
   background-color: var(--color-ocean);
@@ -204,9 +205,11 @@ ul {
   align-items: baseline;
   padding-right: 24px;
 }
-.flex-text {
-  margin: auto;
-  align-items: baseline;
+
+.flex-box {
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 24px;
 }
 .chapter-title {
   color: var(--navyblue, #2e2f42);
