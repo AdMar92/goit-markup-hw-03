@@ -200,7 +200,13 @@ ul {
 .text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
+  align-items: baseline;
+  padding-right: 24px;
+}
+.flex-text {
+  margin: auto;
+  align-items: baseline;
 }
 .chapter-title {
   color: var(--navyblue, #2e2f42);
