@@ -27,7 +27,7 @@ ul {
   margin-right: 156px;
 }
 .flex-menu {
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: auto;
 }
 .flex-address {
@@ -35,12 +35,13 @@ ul {
   margin-left: auto;
 }
 
+.floor {
+  display: flex;
+}
 .container {
   max-width: 1158px;
   margin: auto;
   padding-inline: 15px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .logo-link {
   color: var(--navyblue, #2e2f42);
