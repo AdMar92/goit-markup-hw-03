@@ -223,6 +223,8 @@ ul {
   align-items: stretch;
   justify-content: space-between;
   gap: 24px;
+  padding-bottom: 72px;
+  padding-top: 72px;
 }
 .chapter-title {
   color: var(--navyblue, #2e2f42);
@@ -232,6 +234,8 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-top: 72px;
+  padding-bottom: 72px;
 }
 .background-footer {
   background: var(--navyblue, #2e2f42);
