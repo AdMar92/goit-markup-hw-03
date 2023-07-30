@@ -48,7 +48,6 @@ body {
 
 ul {
   display: flex;
-  flex-wrap: wrap;
 }
 .flex-logo {
   justify-content: flex-start;
