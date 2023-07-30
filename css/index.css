@@ -250,7 +250,6 @@ ul {
 }
 .flex-team {
   display: flex;
-  width: 232px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
