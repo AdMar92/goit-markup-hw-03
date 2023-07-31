@@ -35,17 +35,10 @@ body {
   color: var(--color-hero-background);
 }
 
-.flex-menu-buttons {
-  display: flex;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-  padding-top: 96px;
-}
 .flex-btn-menu {
-  display: flex;
-  align-items: flex-start;
   gap: 24px;
+  justify-content: center;
+  margin-bottom: 72px;
 }
 
 .flex-photo-list {
@@ -224,6 +217,7 @@ ul {
 .button-item:focus {
   background-color: var(--color-ocean);
   color: var(--color-white-background);
+  border: 1px solid transparent;
 }
 
 .button-color:focus,
