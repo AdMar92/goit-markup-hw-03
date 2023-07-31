@@ -150,6 +150,12 @@ ul {
 }
 .none-dots {
   list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.primary-list-class {
+  width: calc((100% - 72px) / 4);
 }
 .menu-style {
   color: var(--color-hero-background);
