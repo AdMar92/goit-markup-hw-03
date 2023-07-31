@@ -262,7 +262,7 @@ ul {
   font-size: 18;
 }
 
-.h-text {
+.header-small-text {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
@@ -283,12 +283,11 @@ ul {
   gap: 10px;
   display: block;
 }
-.text {
+.small-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   align-items: baseline;
-  padding-right: 24px;
   justify-content: space-between;
 }
 
