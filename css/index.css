@@ -326,6 +326,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 32px 16px;
   gap: 8px;
   border-radius: 0px 0px 4px 4px;
   background: var(--white, #fff);
