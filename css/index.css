@@ -195,7 +195,6 @@ ul {
   letter-spacing: 0.04em;
   font-family: "Roboto";
   cursor: pointer;
-
   display: flex;
   padding: 12px 24px;
   justify-content: center;
@@ -368,6 +367,7 @@ ul {
 
 .background-team {
   background: var(--cloud, #f4f4fd);
+  padding: 120px 0;
 }
 
 .work-it {
