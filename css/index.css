@@ -380,9 +380,9 @@ ul {
   width: 450px;
 }
 
-.visually-hidden:not(:focus):not(:active) {
-  clip: rect(0000);
-  clip-path: inset(100%);
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
