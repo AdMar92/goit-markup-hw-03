@@ -176,6 +176,7 @@ ul {
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
+  min-width: 169px;
 }
 .button-item {
   color: var(--iris, #4d5ae5);
