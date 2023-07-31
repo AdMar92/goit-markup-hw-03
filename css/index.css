@@ -335,7 +335,7 @@ ul {
 }
 
 .fix-div {
-  padding: 32px 16px;
+  padding: 32px, 16px;
 }
 .chapter-title {
   color: var(--navyblue, #2e2f42);
