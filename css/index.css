@@ -109,9 +109,8 @@ ul {
   margin-top: 48px;
 }
 .title-flex {
-  padding-left: 300px;
-  padding-right: 300px;
-  align-items: center;
+  align-items: stretch;
+  margin: 0 auto;
 }
 .logo-link {
   color: var(--navyblue, #2e2f42);
@@ -232,6 +231,7 @@ ul {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 .web-color {
   color: var(--iris, #4d5ae5);
