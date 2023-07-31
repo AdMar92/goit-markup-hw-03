@@ -35,8 +35,6 @@ body {
   color: var(--color-hero-background);
 }
 
-.first-section {
-}
 .flex-menu-buttons {
   display: flex;
   padding: 12px 24px;
@@ -290,6 +288,9 @@ ul {
   align-items: baseline;
   justify-content: space-between;
 }
+.thrd-section {
+  padding-bottom: 120px;
+}
 
 .text-team {
   display: inline-flex;
@@ -337,8 +338,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 72px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .background-footer {
   background: var(--navyblue, #2e2f42);
