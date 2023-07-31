@@ -45,7 +45,7 @@ body {
   padding-top: 96px;
 }
 .flex-btn-menu {
-  display: inline-flex;
+  display: flex;
   align-items: flex-start;
   gap: 24px;
 }
