@@ -161,9 +161,11 @@ ul {
 }
 .none-dots {
   list-style: none;
+  gap: 24px;
 }
 .primary-list-class {
   width: calc((100% - 72px) / 4);
+  gap: 24px;
 }
 .h-text {
   color: var(--navyblue, #2e2f42);
