@@ -63,18 +63,15 @@ body {
 
 .flex-btn-menu {
   display: flex;
-  padding-top: 96px;
   gap: 24px;
   justify-content: center;
+  margin-bottom: 72px;
 }
 
 .flex-photo-list {
-  width: 1158px;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 72px;
-  gap: 24px;
-  padding-bottom: 120px;
+  gap: 48px 24px;
 }
 
 ul {
@@ -108,7 +105,7 @@ ul {
   padding-bottom: 32px;
   padding-left: 16px;
   padding-right: 16px;
-  gap: 8px;
+  border-top: 0;
 }
 
 .container {
@@ -164,12 +161,24 @@ ul {
 }
 .none-dots {
   list-style: none;
-  display: flex;
-  gap: 24px;
 }
-
 .primary-list-class {
   width: calc((100% - 72px) / 4);
+}
+.h-text {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02px;
+  margin-bottom: 8px;
+}
+
+.text {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02px;
 }
 
 .that-list-class {
@@ -187,6 +196,7 @@ ul {
   letter-spacing: 0.04em;
   line-height: 1.5;
   padding: 24px 0;
+  display: block;
 }
 .menu-style:focus,
 .menu-style:hover {
@@ -231,7 +241,7 @@ ul {
   padding: 120px 0;
 }
 .portfolio-section-style {
-  padding-top: 120px;
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
@@ -323,7 +333,7 @@ ul {
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
 .text-item {
   margin-top: 100px;
