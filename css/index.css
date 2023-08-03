@@ -292,12 +292,12 @@ ul {
 .studio {
   color: var(--navyblue, #2e2f42);
   font-family: Raleway;
-  font-size: 18;
+  font-size: 18px;
 }
 .studio-white {
   color: var(--cloud, #f4f4fd);
   font-family: Raleway;
-  font-size: 18;
+  font-size: 18px;
 }
 
 .header-small-text {
