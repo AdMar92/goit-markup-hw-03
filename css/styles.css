@@ -260,6 +260,7 @@ img {
 }
 .footer-background {
   background: var(--GREY);
+  padding: 100px 0;
 }
 
 .footer-text {
@@ -268,6 +269,7 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  max-width: 264px;
 }
 .visually-hidden {
   position: absolute;
