@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --IRIS: #4d5ae5;
+  --OCEAN: #404bbf;
+  --NAVY-BLUE: #2e2f42;
+  --GREEN: #31d0aa;
+  --SLATE: #434455;
+  --LIGHT-SLATE: #8e8f99;
+  --CORNFLOWER: #e7e9fc;
+  --CLOUD: #f4f4fd;
+  --NAVY-BLUE-modal: #2e2f4266;
+  --GREY: #2e2f42;
+  --WHITE: #ffffff;
+  --modal-background: #fcfcfc;
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--SLATE);
+  background-color: var(--WHITE);
+}
+
+img {
+  display: block;
+}
+
+.logo {
+  color: var(--IRIS);
+  font-family: var(--font-secondary);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+.header-logo {
+  color: var(--NAVY-BLUE);
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+.header-floor {
+  border-bottom: 1px solid #e7e9fc;
+}
+.menu-item {
+  color: var(--NAVY-BLUE);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+}
+
+.menu-item:focus,
+.menu-item:hover {
+  color: var(--OCEAN);
+}
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.menu-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.address-style {
+  font-style: normal;
+}
+
+.flex-menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.flex-address {
+  display: flex;
+  gap: 40px;
+}
+.address-position {
+  margin-left: auto;
+}
+
+.address-item {
+  color: var(--SLATE);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.address-item:focus,
+.address-item:hover {
+  color: var(--OCEAN);
+}
+.section-background {
+  background-color: var(--NAVY-BLUE);
+  padding: 188px 0;
+}
+
+.title-style {
+  color: var(--WHITE);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  max-width: 496px;
+  margin: auto;
+  padding-bottom: 48px;
+}
+
+.header-small-text {
+  color: var(--NAVY-BLUE);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.small-text {
+  color: var(--SLATE);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.btn-color {
+  background-color: var(--IRIS);
+  color: var(--WHITE);
+  /* Button Text */
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+.btn-flex {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.btn-color:hover,
+.btn-color:focus {
+  background: var(--OCEAN);
+}
+
+.btn-text {
+  color: var(--WHITE);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.header-section {
+  color: var(--NAVY-BLUE);
+  text-align: center;
+  /* text style */
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.button-style {
+  color: var(--IRIS);
+  background-color: var(--CLOUD);
+  text-align: center;
+  /* Button Text */
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.button-style:hover,
+.button-style:focus {
+  background: var(--OCEAN);
+  color: var(--WHITE);
+}
+
+.section-four {
+  background-color: var(--CLOUD);
+}
+.background-list {
+  background-color: var(--WHITE);
+}
+
+.footer-logo {
+  color: var(--CLOUD);
+}
+.footer-background {
+  background: var(--GREY);
+}
+
+.footer-text {
+  color: var(--CLOUD);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
