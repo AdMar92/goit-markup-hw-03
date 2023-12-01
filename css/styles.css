@@ -188,7 +188,7 @@ img {
 }
 
 .service-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 /*--------- -------SEKCJA TRZECIA------------- */
@@ -208,7 +208,7 @@ img {
 }
 
 .thrd-list {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 /* ------------------SEKCJA CZWARTA-------------------*/
@@ -259,9 +259,9 @@ img {
   padding: 100px 0;
 }
 .footer-item {
-  margin-bottom: 16px;
   display: inline-block;
   text-decoration: none;
+  margin-bottom: 16px;
 }
 
 .footer-text {
