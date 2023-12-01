@@ -50,6 +50,8 @@ img {
   list-style: none;
 }
 
+/* --------NAGŁOWEK--------  */
+
 .header-floor {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -107,6 +109,8 @@ img {
 .address-item:hover {
   color: var(--OCEAN);
 }
+
+/* -------------SEKCJA PIERWSZA---------------- */
 .section-background {
   background-color: var(--NAVY-BLUE);
   padding: 188px 0;
@@ -123,22 +127,6 @@ img {
   margin: auto;
   padding-bottom: 48px;
 }
-
-.header-small-text {
-  color: var(--NAVY-BLUE);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.small-text {
-  color: var(--SLATE);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
 .btn-color {
   background-color: var(--IRIS);
   color: var(--WHITE);
@@ -173,7 +161,45 @@ img {
   letter-spacing: 0.64px;
 }
 
-.header-section {
+.header-small-text {
+  color: var(--NAVY-BLUE);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  width: 264px;
+  height: 24px;
+  margin-bottom: 8px;
+}
+.small-text {
+  color: var(--SLATE);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  width: 264px;
+  height: 72px;
+}
+
+/* ----------------SEKCJA 2-------------------------- */
+.section-two {
+  padding: 120px 0;
+}
+.flex-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.service-item {
+  width: calc((100% - 72px) / 4);
+}
+
+/*--------- -------SEKCJA TRZECIA------------- */
+.section-three {
+  padding-bottom: 120px;
+}
+.section-title {
   color: var(--NAVY-BLUE);
   text-align: center;
   /* text style */
@@ -182,9 +208,29 @@ img {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
-.button-style {
+.thrd-list {
+  width: calc((100% - 48px) / 3);
+}
+
+/* ------------------SEKCJA CZWARTA-------------------*/
+
+.section-four {
+  padding: 120px 0;
+  background-color: var(--CLOUD);
+}
+
+.flex-team {
+  padding: 32px 0px;
+}
+
+.name-position {
+  text-align: center;
+}
+
+.buttons-style {
   color: var(--IRIS);
   background-color: var(--CLOUD);
   text-align: center;
@@ -197,17 +243,16 @@ img {
   cursor: pointer;
 }
 
-.button-style:hover,
-.button-style:focus {
+.buttons-style:hover,
+.buttons-style:focus {
   background: var(--OCEAN);
   color: var(--WHITE);
 }
 
-.section-four {
-  background-color: var(--CLOUD);
-}
 .background-list {
   background-color: var(--WHITE);
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .footer-logo {
