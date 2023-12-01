@@ -73,6 +73,12 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
+.container-flex {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+}
 
 .menu-wrapper {
   display: flex;
