@@ -313,9 +313,11 @@ ul {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
-  display: inline-block;
   text-decoration: none;
   margin-bottom: 16px;
+}
+.block {
+  display: inline-block;
 }
 
 .footer-text {
