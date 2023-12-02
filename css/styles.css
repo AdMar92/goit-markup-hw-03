@@ -317,7 +317,7 @@ ul {
   margin-bottom: 16px;
 }
 .block {
-  display: inline-block;
+  display: block;
 }
 
 .footer-text {
