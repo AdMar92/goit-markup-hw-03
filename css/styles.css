@@ -305,6 +305,7 @@ ul {
   background: var(--GREY);
   padding: 100px 0;
 }
+
 .footer-item {
   color: var(--IRIS);
   font-family: var(--font-secondary);
@@ -313,8 +314,10 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-right: 76px;
   text-decoration: none;
+}
+
+.footer-position {
   margin-bottom: 16px;
   display: inline-block;
 }
@@ -327,6 +330,7 @@ ul {
   letter-spacing: 0.32px;
   max-width: 264px;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
