@@ -320,6 +320,7 @@ ul {
 .footer-position {
   margin-bottom: 16px;
   display: inline-block;
+  max-width: 71px;
 }
 
 .footer-text {
