@@ -64,7 +64,6 @@ ul {
 }
 .menu-item {
   color: var(--NAVY-BLUE);
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -108,8 +107,8 @@ ul {
 }
 
 .address-item {
+  font-family: Roboto;
   color: var(--SLATE);
-  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -146,7 +145,6 @@ ul {
   color: var(--WHITE);
   /* Button Text */
   font-family: var(--font-primary);
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
@@ -159,7 +157,6 @@ ul {
   border: none;
   border-radius: 4px;
   margin: 0 auto;
-  cursor: pointer;
 }
 
 .btn-color:hover,
@@ -169,7 +166,6 @@ ul {
 
 .btn-text {
   color: var(--WHITE);
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
@@ -186,7 +182,6 @@ ul {
 }
 .small-text {
   color: var(--SLATE);
-  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -256,17 +251,13 @@ ul {
 .buttons-style {
   color: var(--IRIS);
   background-color: var(--CLOUD);
-  text-align: center;
   /* Button Text */
-  font-family: var(--font-primary);
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
   display: flex;
   padding: 12px 24px;
-  align-items: flex-start;
   border: 1px solid var(--CORNFLOWER);
   border-radius: 4px;
 }
@@ -296,6 +287,9 @@ ul {
 .background-list {
   background-color: var(--WHITE);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   width: calc((100% - 48px) / 3);
 }
 
@@ -323,7 +317,6 @@ ul {
 
 .footer-text {
   color: var(--CLOUD);
-  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
